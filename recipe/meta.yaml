@@ -47,7 +47,7 @@ test:
 
 about:
   home: https://github.com/thijsjanzen/GUILDS
-  license: GPL-2
+  license: GPL-2.0-only
   summary: A collection of sampling formulas for the unified neutral model of biogeography and
     biodiversity. Alongside the sampling formulas, it includes methods to perform maximum
     likelihood optimization of the sampling formulas, methods to generate data given
