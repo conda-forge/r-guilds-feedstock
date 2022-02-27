@@ -1,4 +1,4 @@
-{% set version = "1.4" %}
+{% set version = "1.4.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/GUILDS_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/GUILDS/GUILDS_{{ version }}.tar.gz
-  sha256: 8ec4e5225aa8f831f501dd8a5e88c6052940bc8bb07bcfedf3c8927e626d6f12
+  sha256: 9b58dcd9ccf07a0079c9c9c0e3223ee57084d7f0e1f7b2cb68b55b255a8616c8
 
 build:
   merge_build_host: true  # [win]
